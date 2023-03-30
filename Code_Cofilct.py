@@ -4,6 +4,7 @@ import sys
 input = sys.stdin.readline
 INF = int(1e9)
 
+
 a = 10
 b = 20
 c = 30
