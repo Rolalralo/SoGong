@@ -9,7 +9,7 @@ INF = int(1e9)
 
 n,m,start = map(int,input().split())
 # 노드의 정보를 담는 리스트 만들기
-table = [[] for i in range(n+1)]
+graph = [[] for i in range(n+1)]
 # 최단거리 테이블을 모두 무한으로 초기화
 distance = [INF] * (n+1)
 
