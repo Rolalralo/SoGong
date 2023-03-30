@@ -3,7 +3,11 @@ import heapq
 import sys
 input = sys.stdin.readline
 INF = int(1e9)
-INF2 = int(400)
+
+a = 10
+b = 20
+c = 30
+
 
 # 노드의 개수, 간선 입력받기
 n, m = map(int,input().split())
