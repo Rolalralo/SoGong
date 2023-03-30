@@ -4,6 +4,9 @@ import sys
 input = sys.stdin.readline
 INF = int(1e9)
 
+a = 10
+b = 20
+c = 30
 # 노드의 개수, 간선 입력받기
 n, m = map(int,input().split())
 # 시작 노드 번호를 입력받기
