@@ -4,13 +4,15 @@ import sys
 input = sys.stdin.readline
 INF = int(1e9)
 
+
 # 노드의 개수 , 간선의 개수 , 시작 입력받기
 
 n,m,start = map(int,input().split())
 # 노드의 정보를 담는 리스트 만들기
-graph = [[] for i in range(n+1)]
+table = [[] for i in range(n+1)]
 # 최단거리 테이블을 모두 무한으로 초기화
 distance = [INF] * (n+1)
+
 
 # 모든 간선 정보를 입력받기
 for _ in range(m):
